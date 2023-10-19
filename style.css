@@ -1,0 +1,74 @@
+
+body{ #background-image: url('https://images8.alphacoders.com/125/1255266.png');
+    background-color: #386FAA;
+}
+#a {font-size: large; 
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+    text-decoration: dotted;
+    background-color: #202F5F;
+    padding: 10px;
+   }
+.a {color: white;
+    display: inline-block;
+    font-size: medium;
+}
+a{ border: 3px solid rgb(166, 166, 168);
+    border-radius: 20px;
+    padding: 3px;
+}
+a:hover{
+    color: rgb(253, 1, 1);
+    border: 5px solid black;
+    font-size: large;
+}  
+.nome{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+#b {padding: 10px;
+    border-radius: 10px;
+    background-color: #202F5F;
+}
+#foto {
+    display: inline-block;
+    width: 200px;}
+#eu {width: 300px;
+    margin-left: 10px;
+    display: inline-block;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.local{
+    color: aliceblue;
+    font-size: x-large;
+    font-style: italic;
+}
+#c {padding: 10px;
+    border-radius: 10px;
+    background-color: #202F5F;
+}
+#me{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.c{
+    color: aliceblue;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#d {padding: 10px;
+    border-radius: 10px;
+    background-color: #202F5F;
+}
+.el{ font-size: larger;
+    color: aliceblue;
+}
+#e {padding: 10px;
+    border-radius: 10px;
+    background-color: #202F5F;
+}
+.e{
+    color: aliceblue;
+}
