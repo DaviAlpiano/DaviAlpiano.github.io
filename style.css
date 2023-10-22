@@ -1,13 +1,12 @@
 
-body{ #background-image: url('https://images8.alphacoders.com/125/1255266.png');
-    background-color: #386FAA;
+body{ background-image: url("cidade.jpeg");
+    margin-left: 40%;
 }
 #a {font-size: large; 
     border-radius: 10px;
     font-family: 'Courier New', Courier, monospace, sans-serif;
     color: white;
     text-decoration: dotted;
-    background-color: #202F5F;
     padding: 10px;
    }
 .a {color: white;
@@ -19,21 +18,25 @@ a{ border: 3px solid rgb(166, 166, 168);
     padding: 3px;
 }
 a:hover{
-    color: rgb(253, 1, 1);
-    border: 5px solid black;
-    font-size: large;
+    color: black;
+    background-color: aliceblue;
+    transition: 900ms;
+    transform: scale(1.2);
 }  
 .nome{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: antiquewhite;
 }
-#b {padding: 10px;
-    border-radius: 10px;
-    background-color: #202F5F;
+#b {
+    padding: 10px;
 }
 #foto {
+    border: 3px solid;
+    border-color: aliceblue;
+    border-radius: 100%;
     display: inline-block;
-    width: 200px;}
+    width: 200px;
+}
 #eu {width: 300px;
     margin-left: 10px;
     display: inline-block;
@@ -41,34 +44,68 @@ a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .local{
+    text-decoration-line: underline;
     color: aliceblue;
     font-size: x-large;
     font-style: italic;
 }
 #c {padding: 10px;
     border-radius: 10px;
-    background-color: #202F5F;
 }
 #me{
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
 }
-.c{
+.c{ 
+    transition: 900ms;
+    display: inline-block;
     color: aliceblue;
     margin-top: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
 #d {padding: 10px;
     border-radius: 10px;
-    background-color: #202F5F;
 }
 .el{ font-size: larger;
     color: aliceblue;
 }
-#e {padding: 10px;
+#e {
+    display: inline-block;
+    padding: 10px;
     border-radius: 10px;
-    background-color: #202F5F;
 }
 .e{
     color: aliceblue;
+}
+
+.e:hover{
+    display: inline-block;
+    color: black;
+    background-color: aliceblue;
+    transition: 900ms;
+    transform: scale(1.2);
+}
+
+ul{
+    padding: 25px;
+    border: 1px solid rgb(230, 235, 233);
+    display: inline-block;}
+
+li{
+    padding: 10px;
+    border: 1px solid rgb(230, 235, 233);
+}
+
+li:hover{
+    color: black;
+    background-color: aliceblue;
+    transition: 900ms;
+    transform: scale(1.2);
+}
+
+h2{
+    margin-right: 870px;
+    background-color: azure;
+    text-decoration-line: underline;
+
 }
