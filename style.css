@@ -1,7 +1,10 @@
 
-body{ background-image: url("cidade.jpeg");
+body{
+    background-image: url("cidade.jpeg");
+    background-position: center;
     margin-left: 40%;
 }
+
 #a {font-size: large; 
     border-radius: 10px;
     font-family: 'Courier New', Courier, monospace, sans-serif;
