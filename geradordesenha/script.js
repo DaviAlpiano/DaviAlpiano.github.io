@@ -1,17 +1,3 @@
-
-const gerarsenha = (tamanho) => {
-
-    const cara = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJLMNOPQRSTUVWXYZ!@#$%^&*()+?><:{}[]" 
-
-    let passorwd = ''
-
-    for( let i = 0; i < tamanho; i +=1){
-    let ramdomnumb = Math.floor(Math.random() * cara.length);
-    passorwd += cara.substring(ramdomnumb, ramdomnumb +1)
-  }
-  return passorwd
-} 
-
 function gerarsenhas(){
     let tamanho = document.getElementById('qNumber').value
     
